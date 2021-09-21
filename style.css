@@ -1,0 +1,39 @@
+.container-bj{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+.flex-blackjack-row-1 h2{
+    color: white;
+}
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+    background-position: center;
+}
+.flex-blackjack-row-1 #your-box, #dealer-box{
+    border:1.5px solid blue;
+    padding: 10px;
+    flex: 1;
+    min-height: 330px;
+}
+.flex-blackjack-row-1 img{
+    width: 30%;
+    padding: 10px;
+}
+.flex-blackjack-row-2 .buttons{
+    padding: 10px;
+}
+.flex-blackjack-row-3 table, th, td{
+    border: 1px solid black;
+    padding: 8px;
+}
